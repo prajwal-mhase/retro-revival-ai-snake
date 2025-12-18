@@ -27,5 +27,3 @@ A classic Snake game revived with modern AI-driven gameplay using Kiro.
 2. Open `index.html` in a browser
 3. Click **Start**
 4. Use arrow keys to play
-
-## 📁 Project Structure
