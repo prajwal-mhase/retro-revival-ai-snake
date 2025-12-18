@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI-Powered Retro Snake</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <h1>AI-Powered Retro Snake</h1>
+
+  <p id="aiHint">AI: Adaptive difficulty enabled</p>
+    <p id="highScore">High Score: 0</p>
+  <p id="score">Score: 0</p>
+  <div style="position: relative; display: inline-block;">
+    <canvas id="game" width="450" height="450"></canvas>
+
+    <!-- Overlay -->
+    <div id="overlay">
+  <h2 id="overlayTitle">AI Retro Snake</h2>
+  <p id="overlayScore"></p>
+  <p id="overlayHighScore"></p>
+  <button onclick="startGame()">Start</button>
+</div>
+
+
+  <script src="src/game.js"></script>
+</body>
+</html>
